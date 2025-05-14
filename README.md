@@ -1,7 +1,7 @@
 # Airline-control-system
 The Airline Control System is a Linux-based operating system simulation project built to demonstrate real-time scheduling and synchronization of airline flights using low-level system programming concepts. Developed as part of an academic exploration, this project simulates how flights are prioritized, scheduled, and managed concurrently, while ensuring synchronization across critical resources like runways and flight control logs.
 
-Project Overview
+## Project Overview 
 This system simulates multiple flights, each represented by a thread. Every flight has a specific priority, schedule, and status. The primary objective of the system is to ensure that all flights are managed without conflict using thread synchronization tools such as mutexes and locks.
 
 Runways, for instance, are treated as shared resources. Only one flight can use a runway at a time. This is where mutexes are heavily used to prevent race conditions and ensure mutual exclusion. Priority-based scheduling is simulated manually through control logic, giving emergency or high-priority flights access to runways first.
