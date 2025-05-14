@@ -42,3 +42,6 @@ Developed and tested on Ubuntu, leveraging Linux system calls and process manage
 
 ## Purpose
 This project is primarily educational and serves as a practical application of operating system concepts such as concurrency, synchronization, scheduling, and inter-process communication. It was developed to deepen understanding of how complex systems like air traffic control can be abstracted and controlled using core OS principles.
+
+## Credits
+This project was developed by Ali and Musa Khan (https://github.com/MusaxKhan)
